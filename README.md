@@ -1,10 +1,15 @@
-# 👩‍⚕️ PathGenIC: Histopathology Image Report Generation with In-Context Learning  
+# 🏥 PathGenIC: Histopathology Image Report Generation by Vision Language Model with Multimodal In-Context Learning
+- **Authors**: Shih-Wen Liu, Hsuan-Yu Fan, Wei-Ta Chu, Fu-En Yang, Yu-Chiang Frank Wang  
+- **Conference**: MIDL 2025 (Under Review)  
+- **[Paper Link - TBD]**()  
 
-This repository contains the official implementation of **PathGenIC**, a multimodal in-context learning framework for generating medical reports from histopathology images. Our method enhances traditional vision-language models by 3 strategies,  including 
-- nearest neighbor: dynamically retrieving similar cases
-- feedback: learning from mistake
-- guideline: follow the rules 
-improving both contextual relevance and report quality.
+This repository provides the official implementation of **PathGenIC**, a multimodal in-context learning framework for generating medical reports from histopathology images. Our approach enhances traditional vision-language models through three key strategies:  
+
+- **Nearest Neighbor**: Dynamically retrieves similar cases for context.  
+- **Guideline**: Follows structured diagnostic rules for consistency.  
+- **Feedback**: Learns from mistakes to refine report generation.  
+
+These strategies work together to improve contextual relevance and report quality. 🚀
 
 ## ✨ Key Features  
 - **Multimodal In-Context Learning (ICL)**: Uses retrieved whole slide image (WSI)-report pairs to enhance report generation.  
@@ -12,11 +17,14 @@ improving both contextual relevance and report quality.
 - **State-of-the-Art Performance**: Achieves top results on the **HistGen** benchmark, improving BLEU, METEOR, and ROUGE-L scores.  
 - **Pretrained Model Available**: Download the model weights from **[Hugging Face](https://huggingface.co/Casper666/PathGenIC)**.  
 
-## 📄 Paper  
-- **Title**: *Histopathology Image Report Generation by Vision Language Model with Multimodal In-Context Learning*  
-- **Authors**: Shih-Wen Liu, Hsuan-Yu Fan, Wei-Ta Chu, Fu-En Yang, Yu-Chiang Frank Wang  
-- **Conference**: MIDL 2025 (Under Review)  
-- **[Paper Link - TBD]**()  
+## 🧠 Model Overview  
+
+### **Base Model Structure**  
+![Base Model](./assets/model_structure.png)  
+
+### **PathGenIC Methodology**  
+![Methodology](./assets/methodology.png)  
+
 
 ## 🏗️ Repository Structure  
 ```

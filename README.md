@@ -22,6 +22,7 @@ These strategies work together to improve contextual relevance and report qualit
 ### **Base Model Structure**  
 ![Base Model](./assets/model_structure.png)  
 
+
 ### **PathGenIC Methodology**  
 ![Methodology](./assets/methodology.png)  
 
@@ -60,11 +61,11 @@ These strategies work together to improve contextual relevance and report qualit
 ## 📊 Results  
 PathGenIC achieves **state-of-the-art** performance on the **HistGen benchmark**, outperforming existing methods in BLEU, METEOR, and ROUGE-L metrics.  
 
-| Model | BLEU-4 | METEOR | ROUGE-L |  
-|--------|--------|--------|--------|  
-| **PathGenIC (Ours)** | **0.196** | **0.197** | **0.357** |  
-| Base Model (Ours) | 0.178 | 0.184 | 0.336 |  
-| HistGen (Previous SOTA) | 0.184 | 0.182 | 0.344 |  
+| Model | BLEU-4 | METEOR | ROUGE-L | FactENT | BERTScore
+|--------|--------|--------|--------|--------|--------|  
+| HistGen (Previous SOTA) | 0.184 | 0.182 | 0.344 | - | - |
+| Base Model (Ours) | 0.178 | 0.184 | 0.336 | 0.445 | 0.633 |
+| **PathGenIC (Ours)** | **0.196** | **0.197** | **0.357** | **0.462** | **0.641** |
 
 ## 📌 Citation  
 If you find this work useful, please consider citing:  

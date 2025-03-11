@@ -1,0 +1,17 @@
+*.log
+*.wandb
+*.json
+*.csv
+*.pyc
+__pycache__/
+tempCodeRunnerFile.py
+*.jpg
+*.jpeg
+*.svg
+*.gif
+*.pdf
+*.out
+/llava/model_weight/original_mm_projector
+/llava/model_weight/qllava-v1.5-7b_lora-finetuned
+/llava/model_weight/Quilt-Llava-v1.5-7b
+.DS_Store

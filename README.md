@@ -30,10 +30,11 @@ These strategies work together to improve contextual relevance and report qualit
 ## 🏗️ Repository Structure  
 ```
 📂 PathGenIC
-├── 📂 models       # Model architectures & fine-tuning scripts
-├── 📂 data         # Scripts for preprocessing HistGen dataset
-├── 📂 experiments  # Training & evaluation scripts
-├── train.py        # Main training script
+├── 📂 llava        # Model architectures
+├── 📂 scripts      # Training & evaluation scripts
+├── 📂 docs         # Documentation
+├── 📂 assets  
+├── 📂 model_weight 
 ├── inference.py    # Report generation pipeline
 └── README.md       # This file
 ```  
@@ -55,7 +56,7 @@ These strategies work together to improve contextual relevance and report qualit
    ```
 4. Run inference on a test WSI:  
    ```bash
-   python inference.py --wsi path/to/wsi --model_path Casper666/PathGenIC
+   bash scripts/inference.sh
    ```  
 
 ## 📊 Results  

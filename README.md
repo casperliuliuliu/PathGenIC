@@ -30,11 +30,10 @@ These strategies work together to improve contextual relevance and report qualit
 ## 🏗️ Repository Structure  
 ```
 📂 PathGenIC
-├── 📂 llava        # Model architectures
+├── 📂 llava        # Model architectures and model weights
 ├── 📂 scripts      # Training & evaluation scripts
 ├── 📂 docs         # Documentation
 ├── 📂 assets  
-├── 📂 model_weight 
 ├── inference.py    # Report generation pipeline
 └── README.md       # This file
 ```  

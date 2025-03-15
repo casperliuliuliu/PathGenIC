@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_PATH="/data2/xuanyu"
+BASE_PATH="your_base_path"
 WEIGHT_PATH="qllava-v1.5-7b_lora-0109-1338"
 
 export CUDA_VISIBLE_DEVICES=0

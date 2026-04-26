@@ -1,7 +1,7 @@
 # 🏥 PathGenIC: Histopathology Image Report Generation by Vision Language Model with Multimodal In-Context Learning
 - **Authors**: Shih-Wen Liu, Hsuan-Yu Fan, Wei-Ta Chu, Fu-En Yang, Yu-Chiang Frank Wang  
-- **Conference**: MIDL 2025 (Under Review)  
-- **[Paper Link - TBD]**()  
+- **Conference**: MIDL 2025 Accepted  
+- **[Paper Link]**(https://arxiv.org/abs/2506.17645)  
 
 This repository provides the official implementation of **PathGenIC**, a multimodal in-context learning framework for generating medical reports from histopathology images. Our approach enhances traditional vision-language models through three key strategies:  
 
@@ -70,10 +70,12 @@ PathGenIC achieves **state-of-the-art** performance on the **HistGen benchmark**
 ## 📌 Citation  
 If you find this work useful, please consider citing:  
 ```
-@article{Liu2025PathGenIC,
-  title={Histopathology Image Report Generation by Vision Language Model with Multimodal In-Context Learning},
-  author={Shih-Wen Liu and Hsuan-Yu Fan and Wei-Ta Chu and Fu-En Yang and Yu-Chiang Frank Wang},
-  year={2025}
+@inproceedings{Liu2025PathGenIC,
+   title={Histopathology Image Report Generation by Vision Language Model with Multimodal In-Context Learning},
+   author={Shih-Wen Liu and Hsuan-Yu Fan and Wei-Ta Chu and Fu-En Yang and Yu-Chiang Frank Wang},
+   booktitle={Medical Imaging with Deep Learning},
+   year={2025},
+   url={https://openreview.net/forum?id=DSG6HJ65a6}
 }
 ```  
 
